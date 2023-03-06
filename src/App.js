@@ -9,6 +9,7 @@ import {
   Header,
 } from "./containers";
 import { Cta, Brand, Navbar } from "./components";
+import "./App.css";
 
 const App = () => {
   return (
@@ -19,6 +20,11 @@ const App = () => {
       </div>
       <Brand />
       <WhatGPT />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 };
